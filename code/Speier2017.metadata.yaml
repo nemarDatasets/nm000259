@@ -1,0 +1,104 @@
+_dataset:
+  class: Speier2017
+  code: Speier2017
+  doi: 10.1371/journal.pone.0175382
+  interval:
+  - 0
+  - 0.8
+  n_subjects: 10
+  paradigm: p300
+acquisition:
+  channel_types:
+    eeg: 32
+  ground: AFz
+  hardware: g.tec amplifier
+  line_freq: 60.0
+  montage: standard_1005
+  n_channels: 32
+  reference: left ear
+  sampling_rate: 256.0
+  sensors:
+  - Fz
+  - FC1
+  - FCz
+  - FC2
+  - FC4
+  - FC6
+  - C4
+  - C6
+  - CP4
+  - CP6
+  - FC3
+  - FC5
+  - C3
+  - C5
+  - CP3
+  - CP5
+  - CP1
+  - P1
+  - Cz
+  - CPz
+  - Pz
+  - POz
+  - CP2
+  - P2
+  - PO7
+  - PO3
+  - O1
+  - Oz
+  - Iz
+  - O2
+  - PO4
+  - PO8
+data_structure:
+  n_trials: ~1200 flashes per training run (10 chars x 10 seq x 12)
+  trials_context: per_run
+documentation:
+  country: US
+  data_url: https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/PHHHB6
+  doi: 10.1371/journal.pone.0175382
+  institution: University of California, Los Angeles
+  investigators:
+  - William Speier
+  - Corey Arnold
+  - Aniket Deshpande
+  - Nader Pouratian
+  license: CC0
+  publication_year: 2017
+experiment:
+  class_labels:
+  - Target
+  - NonTarget
+  events:
+    NonTarget: 1
+    Target: 2
+  feedback_type: visual
+  mode: online
+  n_classes: 2
+  paradigm: p300
+  primary_modality: visual
+  stimulus_modalities:
+  - visual
+  stimulus_type: flash / famous face overlay
+  study_design: P300 row-column speller; 2 stimulus conditions (Famous Faces, Inverting); 6x6 character matrix
+  trial_duration: 1.0
+file_format: BCI2000
+paradigm_specific:
+  detected_paradigm: p300
+  isi_ms: 25.0
+  soa_ms: 125.0
+participants:
+  age_max: 35
+  age_min: 20
+  health_status: healthy
+  n_subjects: 10
+  species: human
+runs_per_session: 3
+sessions_per_subject: 2
+tags:
+  modality:
+  - ERP
+  pathology:
+  - Healthy
+  type:
+  - P300
