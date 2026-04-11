@@ -1,38 +1,38 @@
 {
-	"Name": "Speier2017",
-	"BIDSVersion": "1.9.0",
-	"HEDVersion": "8.4.0",
-	"DatasetType": "derivative",
-	"License": "CC0",
-	"Authors": [
-		"William Speier",
-		"Corey Arnold",
-		"Aniket Deshpande",
-		"Nader Pouratian"
-	],
-	"ReferencesAndLinks": [
-		"https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/PHHHB6"
-	],
-	"DatasetDOI": "doi:10.1371/journal.pone.0175382",
-	"GeneratedBy": [
-		{
-			"CodeURL": "https://github.com/NeuroTechX/moabb",
-			"Name": "moabb",
-			"Description": "Mother of All BCI Benchmarks",
-			"Version": "1.5.0"
-		}
-	],
-	"SourceDatasets": [
-		{
-			"DOI": "10.1371/journal.pone.0175382",
-			"URL": "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/PHHHB6"
-		}
-	],
-	"Keywords": [
-		"Healthy",
-		"ERP",
-		"P300",
-		"p300"
-	],
-	"PublicationYear": 2017
+  "Name": "Speier et al. 2017 — P300 speller EEG dataset",
+  "BIDSVersion": "1.9.0",
+  "HEDVersion": "8.4.0",
+  "DatasetType": "derivative",
+  "License": "CC0",
+  "Authors": [
+    "William Speier",
+    "Corey Arnold",
+    "Aniket Deshpande",
+    "Nader Pouratian"
+  ],
+  "ReferencesAndLinks": [
+    "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/PHHHB6"
+  ],
+  "DatasetDOI": "doi:10.1371/journal.pone.0175382",
+  "GeneratedBy": [
+    {
+      "CodeURL": "https://github.com/NeuroTechX/moabb",
+      "Name": "moabb",
+      "Description": "Mother of All BCI Benchmarks",
+      "Version": "1.5.0"
+    }
+  ],
+  "SourceDatasets": [
+    {
+      "DOI": "10.1371/journal.pone.0175382",
+      "URL": "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/PHHHB6"
+    }
+  ],
+  "Keywords": [
+    "Healthy",
+    "ERP",
+    "P300",
+    "p300"
+  ],
+  "PublicationYear": 2017
 }
