@@ -1,5 +1,5 @@
 {
-  "Name": "Speier et al. 2017 — P300 speller EEG dataset",
+  "Name": "Speier et al. 2017 — A comparison of stimulus types in online classification of the P300 speller using language models",
   "BIDSVersion": "1.9.0",
   "HEDVersion": "8.4.0",
   "DatasetType": "derivative",
