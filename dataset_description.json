@@ -13,7 +13,7 @@
   "ReferencesAndLinks": [
     "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/PHHHB6"
   ],
-  "DatasetDOI": "doi:10.1371/journal.pone.0175382",
+  "DatasetDOI": "10.82901/nemar.nm000259",
   "GeneratedBy": [
     {
       "CodeURL": "https://github.com/NeuroTechX/moabb",
@@ -26,6 +26,9 @@
     {
       "DOI": "10.1371/journal.pone.0175382",
       "URL": "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/PHHHB6"
+    },
+    {
+      "DOI": "doi:10.1371/journal.pone.0175382"
     }
   ],
   "Keywords": [
