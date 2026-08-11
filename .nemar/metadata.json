@@ -1,6 +1,11 @@
 {
   "version": "2.0",
-  "pipeline_stage": "validated",
+  "pipeline_stage": "enriched",
+  "title": "Speier et al. 2017 — A comparison of stimulus types in online classification of the P300 speller using language models",
+  "description": "This dataset comprises EEG recordings from 10 healthy participants performing a P300 speller task using a 6×6 character matrix. The study compares two stimulus conditions—famous faces and inverted faces—to evaluate their effects on online P300 classification performance using language models. Data were collected across 2 sessions per subject with 3 runs per session, sampled at 256 Hz from 32 EEG channels.",
+  "methods_description": "EEG data were acquired using a g.tec amplifier at 256 Hz sampling rate from 32 channels arranged in a standard 1005 montage, with left ear reference and AFz ground. Participants performed an online P300 row-column speller task with a 6×6 character matrix under two stimulus conditions (famous faces and inverted faces). Visual feedback was provided. Inter-stimulus interval was 25 ms with stimulus onset asynchrony of 125 ms. Trial duration was 1.0 s with approximately 1200 flashes per training run.",
+  "license": "CC0",
+  "dataset_type": "derivative",
   "authors": {
     "William Speier": {
       "orcid": "0000-0002-0890-8684"
@@ -9,6 +14,44 @@
     "Aniket Deshpande": {},
     "Nader Pouratian": {}
   },
+  "keywords": [
+    {
+      "term": "EEG",
+      "subject_scheme": "MeSH",
+      "scheme_uri": "https://id.nlm.nih.gov/mesh/",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D004569"
+    },
+    {
+      "term": "Event-Related Potentials, P300",
+      "subject_scheme": "MeSH",
+      "scheme_uri": "https://id.nlm.nih.gov/mesh/",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D018913"
+    },
+    {
+      "term": "brain-computer interface",
+      "subject_scheme": "MeSH",
+      "scheme_uri": "https://id.nlm.nih.gov/mesh/",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D062385"
+    },
+    {
+      "term": "speller paradigm"
+    },
+    {
+      "term": "visual stimulus"
+    },
+    {
+      "term": "online classification"
+    },
+    {
+      "term": "language models"
+    },
+    {
+      "term": "famous faces"
+    },
+    {
+      "term": "stimulus comparison"
+    }
+  ],
   "related_identifiers": [
     {
       "identifier": "10.1371/journal.pone.0175382",
@@ -17,11 +60,6 @@
     },
     {
       "identifier": "https://github.com/nemarDatasets/nm000259",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    },
-    {
-      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=nm000259",
       "identifier_type": "URL",
       "relation_type": "IsDescribedBy"
     },
@@ -39,66 +77,29 @@
       "identifier": "10.1038/s41597-019-0104-8",
       "identifier_type": "DOI",
       "relation_type": "References"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/nm000259",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
     }
   ],
-  "title": "Speier et al. 2017 — A comparison of stimulus types in online classification of the P300 speller using language models",
-  "license": "CC0",
-  "dataset_type": "derivative",
   "resource_type_general": "Dataset",
+  "resource_type_specific": "EEG Dataset",
   "modalities": [
     "eeg"
   ],
-  "resource_type_specific": "EEG Dataset",
   "sizes": [
-    "301.6 MB (61 files)"
+    "808.5 MB (121 files)"
   ],
   "formats": [
     ".bdf",
+    ".dat",
     ".json",
     ".md",
     ".tsv",
     ".yaml",
     ".yml"
   ],
-  "description": "This dataset comprises EEG recordings from 10 healthy participants performing a P300 speller task using a 6×6 character matrix. The study compares two stimulus conditions—famous faces and inverted faces—to evaluate their effects on online P300 classification using language models. Data were collected across 2 sessions per subject with 3 runs per session, recorded at 256 Hz from 32 EEG channels using a g.tec amplifier.",
-  "methods_description": "EEG data were acquired at 256 Hz sampling rate from 32 channels using a g.tec amplifier with left ear reference and AFz ground. Participants performed a P300 row-column speller task with a 6×6 character matrix. Two stimulus conditions were tested: famous face overlays and inverted faces. Stimuli were presented with an inter-stimulus interval of 25 ms and stimulus onset asynchrony of 125 ms. Visual feedback was provided during online classification.",
-  "keywords": [
-    {
-      "term": "Event-Related Potentials, P300",
-      "subject_scheme": "MeSH",
-      "scheme_uri": "https://id.nlm.nih.gov/mesh/",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D018913"
-    },
-    {
-      "term": "EEG"
-    },
-    {
-      "term": "brain-computer interface"
-    },
-    {
-      "term": "speller paradigm"
-    },
-    {
-      "term": "visual stimulus"
-    },
-    {
-      "term": "online classification"
-    },
-    {
-      "term": "language models"
-    },
-    {
-      "term": "BCI"
-    },
-    {
-      "term": "row-column speller"
-    },
-    {
-      "term": "famous faces"
-    },
-    {
-      "term": "inverted faces"
-    }
-  ],
-  "source_hash": "6f9ba0b156533d501e57ddfd5c228effb52c2f04d29439a16a19120bf4ce10e8"
+  "source_hash": "67fce62af6447eb96a14f73984323eef1c5424ae7e2a8cd52476a1f1a066e55a"
 }
