@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "enriched",
   "title": "Speier et al. 2017 — A comparison of stimulus types in online classification of the P300 speller using language models",
-  "description": "This dataset comprises EEG recordings from 10 healthy participants performing a P300 speller task using a 6×6 character matrix. The study compares two stimulus conditions—famous faces and inverted faces—to evaluate their effects on online P300 classification performance using language models. Data were collected across 2 sessions per subject with 3 runs per session, sampled at 256 Hz from 32 EEG channels.",
-  "methods_description": "EEG data were acquired using a g.tec amplifier at 256 Hz sampling rate from 32 channels arranged in a standard 1005 montage, with left ear reference and AFz ground. Participants performed an online P300 row-column speller task with a 6×6 character matrix under two stimulus conditions (famous faces and inverted faces). Visual feedback was provided. Inter-stimulus interval was 25 ms with stimulus onset asynchrony of 125 ms. Trial duration was 1.0 s with approximately 1200 flashes per training run.",
+  "description": "This dataset comprises EEG recordings from a P300 speller brain-computer interface study conducted by Speier et al. (2017). Ten healthy participants performed online P300 spelling tasks using a 6×6 character matrix with two stimulus conditions: famous faces and inverted faces. The dataset includes 32-channel EEG data sampled at 256 Hz, with approximately 1200 trials per training run across two sessions per subject, enabling investigation of stimulus type effects on P300-based communication systems.",
+  "methods_description": "EEG data were acquired using a g.tec amplifier with 32 channels at 256 Hz sampling rate. The P300 speller paradigm employed a 6×6 character matrix with visual stimulus presentation (famous faces and inverted faces). Participants completed 2 sessions with 3 runs per session. Reference electrode was placed at the left ear with ground at AFz. Line frequency was 60 Hz.",
   "license": "CC0",
   "dataset_type": "derivative",
   "authors": {
@@ -16,10 +16,13 @@
   },
   "keywords": [
     {
-      "term": "EEG",
-      "subject_scheme": "MeSH",
-      "scheme_uri": "https://id.nlm.nih.gov/mesh/",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D004569"
+      "term": "EEG"
+    },
+    {
+      "term": "P300"
+    },
+    {
+      "term": "brain-computer interface"
     },
     {
       "term": "Event-Related Potentials, P300",
@@ -28,28 +31,25 @@
       "value_uri": "http://id.nlm.nih.gov/mesh/D018913"
     },
     {
-      "term": "brain-computer interface",
-      "subject_scheme": "MeSH",
-      "scheme_uri": "https://id.nlm.nih.gov/mesh/",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D062385"
-    },
-    {
       "term": "speller paradigm"
     },
     {
       "term": "visual stimulus"
     },
     {
-      "term": "online classification"
-    },
-    {
-      "term": "language models"
+      "term": "ERP"
     },
     {
       "term": "famous faces"
     },
     {
-      "term": "stimulus comparison"
+      "term": "inverted faces"
+    },
+    {
+      "term": "online classification"
+    },
+    {
+      "term": "language models"
     }
   ],
   "related_identifiers": [
@@ -101,5 +101,5 @@
     ".yaml",
     ".yml"
   ],
-  "source_hash": "67fce62af6447eb96a14f73984323eef1c5424ae7e2a8cd52476a1f1a066e55a"
+  "source_hash": "a3fa7c2ba9e8a886a91aa17e5da7991479c04d6ee48c2709fdb8560e28bde825"
 }
