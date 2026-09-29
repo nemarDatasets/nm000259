@@ -1,9 +1,9 @@
 {
   "version": "2.0",
-  "pipeline_stage": "enriched",
+  "pipeline_stage": "validated",
   "title": "Speier et al. 2017 — A comparison of stimulus types in online classification of the P300 speller using language models",
-  "description": "This dataset contains P300 speller EEG recordings from 10 healthy adult subjects, collected as part of a study comparing stimulus types (famous faces vs. inverting stimuli) in online classification of the P300 speller using language models. Each subject completed two sessions with three runs each, using a 6x6 character matrix row-column speller paradigm with visual feedback. The data were converted to BIDS format using MOABB from the original Speier et al. (2017) study.",
-  "methods_description": "EEG was recorded using a g.tec amplifier at 256 Hz sampling rate with 32 channels arranged per the standard_1005 montage, referenced to the left ear with ground at AFz. The paradigm was a P300 row-column speller with two stimulus conditions (Famous Faces, Inverting), presented online with visual feedback and a 6x6 character matrix. Stimulus onset asynchrony was 125 ms with a 25 ms inter-stimulus interval.",
+  "description": "EEG recordings from 10 healthy participants performing an online P300 row-column speller task with a 6x6 character matrix. The study compares two stimulus types (Famous Faces and Inverting) combined with language-model-based classification. Data were recorded across two sessions per subject with 32 channels at 256 Hz and are distributed in BIDS format via MOABB.",
+  "methods_description": "32-channel EEG was recorded with a g.tec amplifier at 256 Hz, referenced to the left ear with ground at AFz. Participants used a P300 row-column speller with a 6x6 matrix, a stimulus onset asynchrony of 125 ms and an inter-stimulus interval of 25 ms. Each subject completed 2 sessions of 3 runs each, with visual feedback given online.",
   "license": "CC0",
   "dataset_type": "derivative",
   "authors": {
@@ -19,35 +19,25 @@
       "term": "EEG"
     },
     {
-      "term": "E1A-Associated p300 Protein",
-      "subject_scheme": "MeSH",
-      "scheme_uri": "https://id.nlm.nih.gov/mesh/",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D050881"
+      "term": "P300"
     },
     {
-      "term": "Event-Related Potentials, P300",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D018913"
+      "term": "event-related potentials"
     },
     {
       "term": "Brain-Computer Interfaces",
       "subject_scheme": "MeSH",
+      "scheme_uri": "https://id.nlm.nih.gov/mesh/",
       "value_uri": "http://id.nlm.nih.gov/mesh/D062207"
     },
     {
       "term": "P300 speller"
     },
     {
-      "term": "language models"
+      "term": "famous faces stimulus"
     },
     {
-      "term": "healthy subjects"
-    },
-    {
-      "term": "MOABB"
-    },
-    {
-      "term": "BCI benchmarking"
+      "term": "language model"
     }
   ],
   "related_identifiers": [
@@ -88,7 +78,7 @@
     "eeg"
   ],
   "sizes": [
-    "808.5 MB (121 files)"
+    "771 MB (121 files)"
   ],
   "formats": [
     ".bdf",
