@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Speier et al. 2017 — A comparison of stimulus types in online classification of the P300 speller using language models",
-  "description": "EEG recordings from 10 healthy participants performing an online P300 row-column speller task with a 6x6 character matrix. The study compares two stimulus types (Famous Faces and Inverting) combined with language-model-based classification. Data were recorded across two sessions per subject with 32 channels at 256 Hz and are distributed in BIDS format via MOABB.",
-  "methods_description": "32-channel EEG was recorded with a g.tec amplifier at 256 Hz, referenced to the left ear with ground at AFz. Participants used a P300 row-column speller with a 6x6 matrix, a stimulus onset asynchrony of 125 ms and an inter-stimulus interval of 25 ms. Each subject completed 2 sessions of 3 runs each, with visual feedback given online.",
+  "description": "EEG recordings from 10 healthy participants performing an online P300 row-column speller task with a 6x6 character matrix. The study compares two stimulus conditions, Famous Faces and Inverting, using language models for online classification. Data were recorded from 32 channels across two sessions per subject and are distributed in BIDS format with HED event annotations.",
+  "methods_description": "32-channel EEG was recorded with a g.tec amplifier at 256 Hz, with a left-ear reference and AFz ground. Participants used a P300 row-column speller with a 125 ms stimulus onset asynchrony and a 25 ms inter-stimulus interval. Each of the 2 sessions per subject had 3 runs, and the visual stimuli were either standard flashes or famous-face overlays.",
   "license": "CC0",
   "dataset_type": "derivative",
   "authors": {
@@ -22,22 +22,20 @@
       "term": "P300"
     },
     {
-      "term": "event-related potentials"
+      "term": "Event-Related Potentials, P300",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D018913"
     },
     {
       "term": "Brain-Computer Interfaces",
       "subject_scheme": "MeSH",
-      "scheme_uri": "https://id.nlm.nih.gov/mesh/",
       "value_uri": "http://id.nlm.nih.gov/mesh/D062207"
     },
     {
       "term": "P300 speller"
     },
     {
-      "term": "famous faces stimulus"
-    },
-    {
-      "term": "language model"
+      "term": "visual stimulation"
     }
   ],
   "related_identifiers": [
@@ -89,5 +87,5 @@
     ".yaml",
     ".yml"
   ],
-  "source_hash": "e50012a8a6569e429d71f003f1cfb47cd5fe0752f431a3bdd246a9aa67fab649"
+  "source_hash": "4e7ed6759f6a18f3edb9f63662310cfda7d0decd4fb17e135ecd1e68f36f8251"
 }
